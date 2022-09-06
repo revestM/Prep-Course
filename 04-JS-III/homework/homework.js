@@ -3,12 +3,18 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+  var arreglo=[array];
+  return arreglo[0][0];
 }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
+  const arreglo=[array];
+  const tamaño=arreglo.length;
+  return tamaño;
+ 
 }
 
 
